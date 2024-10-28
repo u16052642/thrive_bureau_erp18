@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<thrive noupdate="1">
+    <record id="product_pricelist_1" model="product.pricelist">
+        <field name="name">Pricelist For Special Customer</field>
+        <field name="sequence">17</field>
+    </record>
+    <record id="product_pricelist_2" model="product.pricelist">
+        <field name="name">Pricelist For Local Customer</field>
+        <field name="item_ids" eval="[(0, 0, {
+            'applied_on': '3_global',
+            'compute_price': 'percentage',
+            'percent_price': 5,
+        })]"/>
+    </record>
+</thrive>

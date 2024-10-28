@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<thrive noupdate="1">
+    <record id="product_pricelist_item_1" model="product.pricelist.item">
+        <field name="applied_on">1_product</field>
+        <field name="fixed_price">10.0</field>
+        <field name="pricelist_id" ref="product_pricelist_1"/>
+        <field name="product_tmpl_id" eval="ref('event_product.product_product_event_product_template')"/>
+    </record>
+</thrive>

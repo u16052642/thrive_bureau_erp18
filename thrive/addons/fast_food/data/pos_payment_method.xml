@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<thrive noupdate="1">
+    <record id="pos_payment_method_1" model="pos.payment.method">
+        <field name="name">Sodexo Card Payment</field>
+    </record>
+</thrive>

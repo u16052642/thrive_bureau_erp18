@@ -1,0 +1,57 @@
+<thrive>
+
+    <t t-name="spreadsheet_edition.ThriveMenuChartPanelSection">
+        <Section>
+            <t t-set-slot="title">Link to Thrive Bureau ERP menu</t>
+            <IrMenuSelector
+                menuId="thriveMenuId"
+                onValueChanged.bind="updateThriveLink"/>
+        </Section>
+    </t>
+
+    <t t-name="spreadsheet_edition.GenericChartConfigPanel"
+        t-inherit="o-spreadsheet-GenericChartConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="//ChartErrorSection" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.BarConfigPanel"
+        t-inherit="o-spreadsheet-BarConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="//ChartErrorSection" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.LineConfigPanel"
+        t-inherit="o-spreadsheet-LineConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="//ChartErrorSection" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.ScorecardChartConfigPanel"
+        t-inherit="o-spreadsheet-ScorecardChartConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="//ChartErrorSection" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+    <t t-name="spreadsheet_edition.GaugeChartConfigPanel"
+        t-inherit="o-spreadsheet-GaugeChartConfigPanel"
+        t-inherit-mode="extension"
+       >
+        <xpath expr="//ChartErrorSection" position="before">
+            <t t-call="spreadsheet_edition.ThriveMenuChartPanelSection"/>
+        </xpath>
+    </t>
+
+</thrive>

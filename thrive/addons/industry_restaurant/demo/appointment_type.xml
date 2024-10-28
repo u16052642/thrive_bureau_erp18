@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<thrive noupdate="1">
+    <record id="appointment_type_1" model="appointment.type">
+        <field name="is_published" eval="True"/>
+        <field name="resource_ids" model="appointment.resource" eval="[(6, 0, obj().search(['|', ('name', 'ilike', 'Patio'), ('name', 'ilike', 'Floor')]).ids)]"/>
+    </record>
+</thrive>

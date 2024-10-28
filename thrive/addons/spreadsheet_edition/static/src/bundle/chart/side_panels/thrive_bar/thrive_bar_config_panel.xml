@@ -1,0 +1,17 @@
+<thrive>
+    <t t-name="spreadsheet_edition.ThriveBarChartConfigPanel"
+        t-inherit="spreadsheet_edition.CommonThriveChartConfigPanel"
+        t-inherit-mode="primary"
+    >
+        <xpath expr="//Section[1]" position="before">
+            <Section class="'pt-0'">
+                <Checkbox
+                    name="'stackedBar'"
+                    label="stackedLabel"
+                    value="props.definition.stacked"
+                    onChange.bind="onUpdateStacked"
+                />
+            </Section>
+        </xpath>
+    </t>
+</thrive>

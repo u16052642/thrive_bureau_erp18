@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<thrive noupdate="1">
+    <record id="ir_attachment_685" model="ir.attachment">
+        <field name="name">connect-collaborate-02.webp</field>
+        <field name="datas" type="base64" file="thrive_partner/static/src/binary/ir_attachment/685-connect-collaborate-02.webp"/>
+    </record>
+</thrive>
