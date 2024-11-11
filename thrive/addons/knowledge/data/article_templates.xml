@@ -104,13 +104,11 @@
                 <span style="font-size: 14px;">You can use the clipboard as a description, a message or simply copy it to your clipboard! 👌</span>
             </li>
             <li>
-                <span style="font-size: 14px;">Not sure how to do it? Check the video below 👇</span>
+                <span style="font-size: 14px;"> 👇</span>
             </li>
         </ul>
     </li>
 </ul>
-<div data-embedded-props='{"videoId":"uEdaZRqa1FQ","platform":"youtube","params":{"rel":0}}'
-    data-embedded="video"/>
 <p><br /></p>
 <div data-embedded="clipboard">
     <div class="d-flex">
@@ -146,7 +144,7 @@
         </ul>
     </li>
 </ul>
-<div data-embedded="file" data-embedded-props='{
+<!-- <div data-embedded="file" data-embedded-props='{
     "fileData":{
         "extension": "pdf",
         "filename": "Thrive Survival Guide",
@@ -155,7 +153,7 @@
         "type": "url",
         "url": "/knowledge/static/src/demo/Onboarding.pdf?download=true"
     }
-}'/>
+}'/> -->
 <p><br /></p>
 <p>
     <span style="font-size: 14px;">
